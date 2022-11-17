@@ -1,0 +1,1 @@
+document.querySelector('#wrap').innerHTML = "<input type='text' value='123'></input>"
