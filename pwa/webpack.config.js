@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 module.exports = {
   mode: "development",
-  entry: "./src/app.js",
+  entry: "./src/index.js",
   plugins: [
     new HtmlWebpackPlugin(),
     new WorkboxPlugin.GenerateSW({

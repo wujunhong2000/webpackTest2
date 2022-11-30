@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://pwa/./src/app.js?");
+eval("console.log('hello webpack');\r\n\r\n// 启动服务\r\nif('serviceWorker' in navigator){\r\n   window.addEventListener('load', ()=>{\r\n      navigator.serviceWorker.register('/service-worker.js')\r\n      .then(registration => {\r\n         console.log('SW 注册成功', registration);\r\n      })\r\n      .catch(registrationError => {\r\n         console.log('SW 注册失败', registrationError);\r\n      })\r\n   })\r\n}\n\n//# sourceURL=webpack://pwa/./src/index.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("\n\n//# sourceURL=webpack://pwa/./src/app.js?");
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/app.js"]();
+/******/ 	__webpack_modules__["./src/index.js"]();
 /******/ 	
 /******/ })()
 ;
