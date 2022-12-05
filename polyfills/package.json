@@ -1,5 +1,5 @@
 {
-  "name": "shimming",
+  "name": "polyfills",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "exports-loader": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0",
-    "imports-loader": "^4.0.1",
+    "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.26.1",
+    "html-webpack-plugins": "^3.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.11.1"
