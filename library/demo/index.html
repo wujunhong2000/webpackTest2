@@ -12,16 +12,24 @@
       console.log(mylib.add(1, 1));
       // npx http-server 
 
-      // CommonJs module require:
+      // script tag:
+      // library: 'mylib',
+      
       // library: {
       //    name: 'mylib',
       //    type: 'window',
       // }
 
-      // AMD module require
+      // CommonJs module require:
+      // library: {
+      //    name: 'mylib',
+      //    type: 'commonjs',
+      // }
 
-      // script tag:
-      // library: 'mylib',
+      // AMD module require
+      // library: {
+      //    type: 'module',
+      // }
 
       // ES module
    </script>

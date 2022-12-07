@@ -7,8 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'mylib.js',
     library: {
-      name: 'mylib',
-      type: 'window',
+      type: 'module',
     }
   }
 };
